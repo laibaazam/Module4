@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+     background-color: aliceblue;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1{
+    background-color: rgb(208, 229, 248);
+    text-align: center;
+
+}
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #192763;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: aquamarine;
+}
+
+#resumeOutput {
+    margin-top: 20px;
+}
+
+
+.editable {
+    cursor: pointer;
+    color: rgb(199, 199, 211);
+    text-decoration: underline;
+}
+
+.edit-input {
+    width: 100%;
+    padding: 5px;
+}
+
